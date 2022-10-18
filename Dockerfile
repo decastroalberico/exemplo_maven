@@ -1,0 +1,4 @@
+FROM openjdk:8
+EXPOSE 8080
+ADD target/EXEMPLO_MAVEN.jar EXEMPLO_MAVEN.jar
+ENTRYPOINT ["java", "-jar", "/EXEMPLO_MAVEN.jar"]
